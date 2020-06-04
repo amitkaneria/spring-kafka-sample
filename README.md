@@ -21,3 +21,8 @@ curl -X POST http://localhost:8080/api/message -d "yet more fun" -H "Content-Typ
 
 # Kafka API Consumer
 This application listens to given bootstrap servers in application.yml file, and topics defined in the Receiver.java file
+
+Please visit following URLs for more information:
+https://github.com/stockgeeks/spring-kafka-app (Docker Image)
+https://dev.to/thegroo/spring-kafka-producer-and-consumer-41oc 
+https://codenotfound.com/spring-kafka-consumer-producer-example.html (Multi-broker system & Unit Tests)
